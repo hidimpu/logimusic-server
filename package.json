@@ -1,0 +1,26 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "devStart": "nodemon server.js",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "express": "^4.17.1",
+    "lyrics-finder": "^21.7.0",
+    "spotify-to-youtube": "^1.0.1",
+    "spotify-web-api-node": "^5.0.2",
+    "ytdl-core": "^4.8.3"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.12"
+  }
+}
