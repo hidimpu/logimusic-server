@@ -86,7 +86,7 @@ app.post("/song", async (req, res) => {
 
   await api.initalize();
   const result = await api.search(
-    `${song.title} ${song.artist},  ' full audio '   `
+    `${song.title} ${song.artist},  ' topic '   `
   );
 
   const videoId = result.content[0].videoId;
