@@ -18,6 +18,8 @@ const SpotifyToYoutube = require("spotify-to-youtube");
 const app = express();
 app.use(cors());
 
+/* Sets the default json spaces to 4, which will beautify the JSON response sent through .json() method. */
+app.set('json spaces', 4);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
