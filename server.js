@@ -6,6 +6,8 @@ const cors = require("cors");
 
 var port = process.env.PORT || 3001;
 
+console.log('sample')
+
 const bodyParser = require("body-parser");
 
 const lyricsFinder = require("lyrics-finder");
