@@ -24,6 +24,7 @@ app.use(cors());
 app.set('json spaces', 4);
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
+console.log('hehe')
 
 const spotifyApi = new SpotifyWebApi({
   redirectUri: process.env.REDIRECT_URI,
